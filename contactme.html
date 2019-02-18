@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"><!--default language of the document content -->
+   <head>
+        <!--character encoding for the document (Unicode) -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <!--VIEWOPORT meta tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Linking CSS Stylesheets-->
+            <!--Linking to Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+            <!--Actual Stylesheets-->
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+		<title>Harry's Learning Journel</title>
+   	</head>
+    <body class='contactPage'>          
+        <nav class='nav'>
+            <!--The primary navigation for the page -->
+            <ul class='nav'>
+                <li class='nav' id='name'>Harry Ammon</li>
+                <li class='nav'><a href="index.html">Learning Journal</a></li>
+                <li class='nav'><a href="guide.html">Guide</a></li>
+                <li class='nav'><a href="contactme.html">Contact me</a></li>
+            </ul>
+        </nav>
+        <div id="wrapper">
+            <main class="floatLeft">
+                <h2>Contact Me</h2>
+                <p>
+                    Want to get in touch? <a href="mailto:h.ammon1@uni.brighton.ac.uk">Email me</a> or fill in the form below
+                </p>
+                <form id="form1"><!--Do not need to put form element inside a div-->
+                    <label for="Name"></label>
+                    <input type="text" id="Name" placeholder="Name" required/>
+                    <label for="email"></label>    
+                    <input type="text" id="email" placeholder="Your email address" required />
+                    <label for="subject"></label>
+                    <input type="text" id="subject" placeholder="Subject"/>
+                    <label for="message"></label>
+                    <textarea id="message" placeholder="Message" required></textarea>
+                    <input id="btn" type="Submit" value="Submit" />
+
+                </form>
+            </main>
+            
+            <aside class="socialMedia" >
+                   <h4>Social Media</h4>
+                   <a href="https://twitter.com/harry_a99" target="_blank"><img src="images/Twitter_Logo_WhiteOnBlue.png" alt="Twitter Logo"/></a>
+                   <a href="https://www.instagram.com/harry_a9/" target="_blank"><img src="images/glyph-logo_May2016.jpeg" alt="Instagram Logo"/></a>
+                   <a href="https://www.linkedin.com/in/harry-ammon-3a1995150/" target="_blank"><img src="images/In-2CRev-128px-TM.png" alt="LinkedIn Logo"/></a>
+            </aside>
+               <div class="clear"></div>
+               <footer>
+                   <a id="top" href="#name">Go to top</a><br />
+                   <a href="http://www.w3.org/html/logo/"><img id='HTML5Logo' src="https://www.w3.org/html/logo/badge/html5-badge-h-css3.png" alt="HTML5 Powered with CSS3 / Styling" title="HTML5 Powered with CSS3 / Styling"></a><br />
+                   <small>© 2018, Harry Ammon</small>
+               </footer>
+        </div>
+    </body>
+</html>

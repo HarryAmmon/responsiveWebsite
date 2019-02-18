@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang="en"><!--default language of the document content -->
+    <head>
+        <!--character encoding for the document (Unicode) -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--VIEWOPORT meta tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Linking CSS Stylesheets-->
+            <!--Linking to Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+            <!--Actual Stylesheets-->
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+		<title>Harry's Learning Journel</title>
+   	</head>
+<body>
+<!--Write web page content and markup within the 'body' tags -->
+	
+	<!--The 'wrapper' div contains all the page content and can be styled -->
+        <header>
+            <!--The main heading for the page -->
+            <!--<h1>Harry Ammon's Learning Journal</h1>-->
+        </header>
+            <!--<h2>Navigation</h2>-->
+            <nav class='nav'>
+                <!--The primary navigation for the page -->
+                <ul class='nav'>
+                    <li class='nav' id='name'>Harry Ammon</li>
+                    <li class='nav'><a href="index.html">Learning Journal</a></li>
+                    <li class='nav'><a href="guide.html">Guide</a></li>
+                    <li class='nav'><a href="contactme.html">Contact me</a></li>
+                </ul>
+            </nav>
+            <div id="wrapper">
+        <main class="floatLeft">
+	<!--The main page content -->
+        <section>
+		
+        <h2>Weekly Posts</h2>
+        <article id="aboutme">
+		<!--Content -->
+			<header>
+			<h3>About Me</h3>
+                <p>Published on <time datetime="2017-10-03">3rd October 2017</time></p> 
+            </header>
+            <p class="dropcap">
+                As part of my Computer Science A-Level I decided to develop my own web app. This was done by using the Django web framework. As a result of this I gained experience in HTML and CSS. Though when trying to write HTML for the first time in university it became apparent that I had forgotten most of what I had had to learn. To be fair to myself I did learn it during Christmas of 2016 so it was almost a year ago and hadn’t practiced HTML since then.
+            </p>
+            <p>
+                Independent learning is new to me and I have never really had to conduct my own research on the topics that I am being taught. This is what I believe will be one of the greatest challenges that I will face during the first few weeks of university.
+            </p>
+    
+		</article> 
+		<article id="week1">
+		<!--Content  -->
+			<header>
+			<h3>Week 1 Blog Post – Teaching Begins</h3>
+                <p>Published on <time datetime="2017-10-03">3rd October 2017</time>
+            </header>
+            <p class="dropcap">
+                The first article I read was titled <a href="https://developer.mozilla.org/en-US/docs/Web_Standards">"Web Standards"</a>. The article explained why it was necessary to have web standards and talked through how it was important to ensure that documents that are accessed through the web remain accessible regardless or the hardware and software combination. This article led me to another titled <a href="https://developer.mozilla.org/en/Using_Web_Standards_in_your_Web_Pages">"Using Web Standards in your Web Page"</a> This page explained common problems that occur when writing HTML. I didn't understand what it meant by "Improper nesting of elements" which was listed as a problem. I plan to either naturally stumble upon this error or conduct further research.
+            </p>
+            <p>
+                The second article titled <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_document">"Getting Started with HTML – Learn Web Development | MDN" </a>was able to provide with useful, basic information about HTML, how to lay out the head and body tags and what should appear in them. This will defiantly be a resource I will go back should I forget how to construct a basic HTML page. It allowed me to learn what special characters where in HTML. Which I have listed as a table below, mainly for my own reference:
+            </p>
+            <table>
+                <caption>Special Characters in HTML</caption>
+                <tr>
+                    <th>Icon</th>
+                    <th>Syntax</th>
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td>&amp;lt;</td>
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td>&amp;gt;</td>
+                </tr>
+                <tr>
+                    <td>&quot;</td>
+                    <td>&amp;quot;</td>
+                </tr>
+                <tr>
+                    <td>&apos;</td>
+                    <td>&amp;apos;</td>
+                </tr>
+                <tr>
+                    <td>&amp;</td>
+                    <td>&amp;amp;</td>
+                </tr>
+            </table>
+            <br>
+            <p>
+                I used the <a href="https://www.w3schools.com/tags/tag_table.asp">w3schools</a> website to learn how to implement tables which I found very informative.
+            </p>
+            <p>
+                The last article was titled <a href="https://webfoundation.org/about/vision/history-of-the-web/">"History of the Web"</a>. I found this a very interesting read but did not contain much in the way of useful information with regards to learning HTML. However, it was a great testament to the work completed by Sir Tim Berners.
+            </p>
+		</article>       
+        <article id="week2">
+		<!--Content  -->
+			<header>
+			<h3>Week 2 Blog Post – Many More Elements</h3>
+                <p>Published on 
+                    <time datetime="2017-10-10">10th October 2017</time> 
+            </header>
+            <p class="dropcap">
+                This weeks' reading involved revisited one of last weeks' articles <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_document">"Getting Started with HTML" </a> with the focus being on types of elements. It began with an explanation the correct nesting of elements to ensure all elements are displayed as intended. I'll try and remember this if I come across any unusual errors.
+            </p>
+            <p>
+                Block V's Inline elements was next where I learnt the defining features of these different types of elements. For example, this paragraph is created using a block element whilst <strong>this</strong> was created using an inline element.
+            </p>
+            <dl>
+                <dt>Block Elements</dt>
+                <dd>Typically create a new line in the web page. They can contain other block elements and inline elements.</dd>
+                <dt>Inline Elements</dt>
+                <dd>Used to target or give semantic meaning to parts of block elements.</dd>
+            
+            </dl>
+            <p>
+                Empty elements took me a while to get my head around even though they seemed relatively simple. Annoyingly only the img tag was given as an example. I intend to find out if anymore beyond img exist.
+            </p>
+            <p>
+                The article then continued to explain the correct syntax for attributes, this was useful for me as this had been a source of some validation errors for me and made clear some outdated teaching that I had received when developing my first website. As an example of this I was able to apply the "datetime" attribute to the &lt;time&gt; inline tag. This was done using the <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> date format which will help clear up any ambiguity about the published date.
+            </p>
+        </article>    
+        <article id="week3">
+		<!--Content  -->
+			<header>
+			<h3>Week 3 Blog Post - Linking to the Web</h3>
+                <p>Published on 
+                    <time datetime="2017-10-17">17th October 2017</time> 
+                </p>
+                
+            </header>
+            <p class="dropcap">
+                Learning how to correctly structure our websites using the correct HTML5 elements was covered today. This is essential for ensuring that our websites validate and increase our websites ranking with search engines. As of the time writing this my website correctly validated, shown by the screenshot below.
+            </p>
+            <div>
+                <figure>
+                    <img src="images/validationScreenshot1.PNG" />
+                    <figcaption>Meaningful caption for the image<br />
+                        <small>Screenshot &copy; Harry Ammon</small>
+                    </figcaption>
+                </figure>
+            </div>
+            <p>
+                Feel free to chuck the URL for this site into the <a href="https://validator.w3.org"> validator</a> to see if my site still validates. I’m sure it will.
+            </p>
+            <hr>
+            <p>
+                Allowing links to other parts of the internet is what enables users to quickly hop between pages to find out the information they are after, and information they didn’t want to find as well. Document fragments allow for users to be sent to a specific part of a specific web page. I knew this was possible having experienced it as a user but I did not know how to implement them until now. So here are links to my
+            </p>
+            <ul>
+                <li><a href="#week1">Week 1</a></li>
+                <li><a href="#week2">Week 2</a></li>
+                <li><a href="#week3">Week 3</a></li>
+            </ul>
+            <p>
+                blog posts. And if you go to the contact me page you’ll be able to open a link that allows you to send me an email.
+            </p>
+            
+                    
+		</article>
+        <article id="week4">
+            <header>
+                <h3>Week 4 Blog Post - Make it Beautiful</h3>
+                <p>Published on
+                    <time datetime="2017-10-24">24th October 2017</time>
+                </p>
+            </header>
+            <p class="dropcap">
+                The rabbit hole that is CSS (Cascading Style Sheets) has been opened up to me this week. Below is a screenshot of my site before CSS has been applied.
+            </p>
+            <figure>
+                <img src="images/beforeStylesheet.png"/>
+                <figcaption>Website screenshot before appling CSS
+                    <small> Screenshot &copy; Harry Ammon</small>
+                </figcaption>
+            </figure>
+            <p>
+                It being a declarative language makes it simple to write. However due to their being a lot of properties to learn, knowing what property to use to achieve the desired result is proving to be the greatest challenge for writing CSS. To help with this there is a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a> which lists all the possible properties and then provides further information on the possible values that can be applied.
+            </p>
+            <p>
+                Due to the inconsistency between web browsers default stylesheets, developers are required to reset elements that are styled by the default stylesheets. Two different methods can be applied:
+            </p>
+            <ul>
+                <li>Reset which removes all styling on all elements</li>
+                <li>Normalize which removes styling on elements that are inconsistent between web browsers and adds a default styling.</li>
+            </ul>
+            <p>
+                I’ve been recommended to use the normalize method. The stylesheet for which can be found <a href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">here</a>.
+            </p>
+            <p>
+                Having readable content on a webpage is essential and websites now have to accommodate a wide range of conditions where their website may be viewed. Whether the page is being viewed on a smartphone whilst the user is walking along or on a desktop computer in an office environment all content needs to be readable. There are recommended web safe fonts that are readable and the majority of browsers and OSes support. The next few weeks will be full of experimentation so expect some <em>interesting</em> looking designs.
+            </p>
+        </article>
+        <article id="week5">
+            <header>
+                <h3>Week 5 Blog Post - Boxing it Up</h3>
+                <p>
+                    Published on 
+                    <time datetime="2017-11-12">12th November 2017</time>
+                </p>
+            </header>
+                <p class="dropcap">
+                    Block elements, unsurprisingly, are contained within boxes. Having played around with the developer settings in Chrome I knew that elements had boxes around them but did not really understand their purpose or how to implem<em>HTML &amp; CSS by Jon Duckett,</em> this was cleared up for me and I was able to effectively use the wrapper to center my website. This mainly had the effect of improving the readability of my site.
+                </p>
+                <p>
+                    Humans find it hard to read long lines of text, hence why programmers indent and format their code so it takes up many lines.
+                </p>
+                <p>
+                    Another factor that affects readability is the font being used. OSes have some fonts packaged with them but not all of them are the most suitable for the web. <a href="https://fonts.google.com">Google Fonts</a> allows you to choose from over 800 fonts to be used on your webpage and even provides the code required to refer to them in your CSS and HTML documents. Though having fonts that you can fall back on incase this service goes down is always a good idea. This allowed me to have a different font for my main page heading and my paragraphs. The main page heading got a font that was more readable when small whilst the heading font was chosen for standing up.
+                </p>
+                <p>
+                    I spent quite a large amount of time choosing which font to use and whilst I think as I gather more experience with Web Development I will learn what fonts are good to use, having a standardised set of approved fonts might aid accessibility on the web.
+                </p>
+                <p>
+                    I was able to style my table that I produced in <a href="#week1">week 1</a> so now that is more useful for reference purpose as it is more legiable.
+                </p>
+                <p>
+                    I have been enjoying my time with CSS and do not see myself coming out of this rabbit hole for a very long time.
+                </p>
+            
+        </article>
+        <article id="week6">
+            <header>
+                <h3>Week 6 Blog Post - <q><em>Float</em> like a butterfly, sting like a bee</q></h3>
+            </header>
+            <p class="dropcap">T</p>
+            <p> 
+                This week is the beginning of my quest to make this website responsive. This meaning that the appearance of this website will change based on what device it is being accessed on.
+            </p>
+            <p> 
+                I went for a single column design for devices with a narrow screen with the navigation menu buttons being drawn one on top of the other. This is shown in the wireframe diagram below.
+            </p>
+            <figure>
+                <img src="images/wireframeForDesktop.png"/>
+                    <figcaption>Desktop Wireframe design<br />
+                        <small> &copy; Harry Ammon</small>
+                    </figcaption>
+            </figure>
+            <p>
+                For wider screens two columns will be used. More content will be able to be shown on the screen at any one time but the content in the two columns will be distinctly different. This can be shown in the wireframe diagram below.
+            </p>
+            <figure>
+                <img src="images/wireframeForMobile.png"/>
+                    <figcaption>Mobile Wireframe design<br />
+                        <small> &copy; Harry Ammon</small>
+                    </figcaption>
+            </figure>
+            <p>I have added small pictures to the navigation bar, provided by <a href="http://glyphicons.com">Glyphicons.</a></p>
+            <p>
+                The navigation bar is currently providing me with the most grief. Due to how long the title is, the navigation bar will only float beside it on particularly wide screens. I will need to make some adjustments to my media queries to resolve this.
+            </p>
+            <p>
+                Experimenting with the float attribute was fun but required learning about the clear attribute to ensure only the desired elements where floated. I learnt how to use the clear attribute <a href="https://www.w3schools.com/css/css_float.asp">here</a>. 
+            </p>
+        </article> 
+        <article id="week7">
+		<header>
+            <h3>The Final Post</h3>
+        </header>
+        <p>
+            Dear Internet,        
+        </p>
+            <p>
+            Please excuse this very rambled blog post. It is currently 22:11 and I have been working on this website for the last 12 hours.
+            </p>
+            <p>
+            In reflection, giving myself a week to complete 3 months’ worth of work was not my best idea. With better time management I would have been able to produce a more professional site in a timelier manner.
+            </p>
+            <p>
+            The last 12 hours has been spent doing battle with positon properties, floats, clears and margins.
+            </p>
+            <p>
+                The last 12 hours has been spent doing battle with positon properties, floats, clears and margins.</p>
+            <p>
+                This being the first piece of coursework I have had to produce by myself for university, I feel like I have completed this work to a standard that I am proud of.
+            </p>
+            <p>
+               I experienced an annoying issue with an h2 heading where text was overlapping. This was solved with the help of my lab tutor.
+The solution was found by google searching the phrase "line height css" we were directed to the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Examples"></a>Mozilla developer website.
+ 
+            </p>
+            <p>
+            An example was given where I was experiencing the same error. The cause of the error was due to using a unit, in my case rems, on my line-height attribute. 
+Changing to a unit less measurement fixed the problem.
+
+            </p>
+            <p>
+            I have learnt a lot in the last 3 months. However the main way I was able to achieve what I have was due to perseverance, trying different combinations of CSS3 attributes and constantly reading on how others have achieved what I wanted. There is defiantly more than one way to skin a cat.
+            </p>
+		</article>
+    
+        </section>
+        </main>
+<!--Close main page content -->  
+        <!--Aside content-->
+        
+        <aside class='floatRight'> 
+        	<h2>References</h2>
+            <h4>Sources used to learn HTML5 and CSS3 before course</h4>
+            <ul class="refrence">
+                <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+            </ul>
+            <h4>Sources used to learn HTML5 and CSS3 during course</h4>
+            <ul class="refrence">
+                <li>Main Resource:<br /><a href="https://www.w3schools.com/css/" target="_blank">CSS section on w3schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web_Standards" target="_blank">Web Standards</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_document" target="_blank">Getting Started with HTML – Learn Web Development | MDN </a></li>
+                <li><a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank">w3schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS Reference</a></li>
+                <li><a href="http://www.dummies.com/web-design-development/html5/" target="_blank">HTML5 for Dummies</a></li>
+            </ul>
+            <h4>Sources used to aid design</h4>
+            <ul class="refrence">
+                <li><a href="https://color.adobe.com/">Color Wheel</a></li>
+                <li><a href="https://www.pexels.com/photo/coding-computer-data-depth-of-field-577585/">Pexel</a></li>
+            </ul>
+        </aside>    
+  <div class="clear"></div>
+
+	<footer>
+        <a href="#name">Go to top</a><br />
+        <a href="http://www.w3.org/html/logo/">
+            <img id='HTML5Logo' src="https://www.w3.org/html/logo/badge/html5-badge-h-css3.png" alt="HTML5 Powered with CSS3 / Styling" title="HTML5 Powered with CSS3 / Styling">
+        </a>
+    		<small>© 2018, Harry Ammon</small>
+	</footer>
+
+	</div>
+<!--Close 'wrapper' div -->
+
+<!--Close 'body' -->
+
+
+</body>
+</html>
